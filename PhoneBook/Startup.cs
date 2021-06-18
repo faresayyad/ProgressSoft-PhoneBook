@@ -71,7 +71,7 @@ namespace PhoneBook
                                    pattern: "{area:exists}/{controller=Upload}/{action}/{id?}");
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=BusinessCard}/{action=Index}/{id?}");
                 endpoints.MapControllers();
 
                 endpoints.MapRazorPages();
